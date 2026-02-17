@@ -26,10 +26,15 @@ public class HolaMundo {
         System.out.println("Tu respuesta fue: "+lluvia);
         
         if (lluvia=="si"){
-            System.out.println("Use sombrilla. guarde la ropa");
+            System.out.println("Use sombrilla. Guarde la ropa");
         }else{
             System.out.println("Salga tranquilo");
         }
+        
+        //IF ternario
+        //Tipo de dato (variable)=(condición)? Código si es V: Código si es F:
+        String aguacero = (lluvia.equals("si")) ? "Use sombrilla. Guarde la ropa":"Salga tranquilo"
+        System.out.println(aguacero);
     }
     
 }
